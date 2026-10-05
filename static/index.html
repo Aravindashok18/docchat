@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocChat</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>DocChat</h1>
+      <p>Ask a question about the documents. Answers cite the page they came from.</p>
+      <span id="status" class="status" data-state="connecting">connecting…</span>
+    </header>
+
+    <section id="log" aria-live="polite"></section>
+
+    <form id="form" autocomplete="off">
+      <input id="question" type="text" placeholder="e.g. How often should I descale the machine?" maxlength="1000" required>
+      <button id="send" type="submit">Ask</button>
+    </form>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>

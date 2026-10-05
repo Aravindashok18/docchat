@@ -1,0 +1,2 @@
+# optional: only needed to generate answers with an OpenAI chat model
+langchain-openai==0.1.25

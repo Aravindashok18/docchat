@@ -1,0 +1,10 @@
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-chroma==0.1.4
+chromadb==0.5.3
+sentence-transformers==3.0.1
+pypdf==4.3.1
+Flask==3.0.3
+flask-sock==0.7.0
+python-dotenv==1.0.1
+posthog==3.25.0  # chromadb 0.5.x breaks with posthog>=4 (noisy telemetry errors)
